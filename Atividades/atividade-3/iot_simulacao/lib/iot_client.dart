@@ -34,7 +34,7 @@ void main() async {
     });
 
     // Envia a primeira leitura imediatamente
-    sendTemperature();  
+    sendTemperature();
 
     // Simula por um tempo finito (remova para infinito)
     await Future.delayed(totalDuration);
